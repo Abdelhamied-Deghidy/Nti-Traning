@@ -1,0 +1,137 @@
+:root {
+
+    --orng: #B88E2F;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.products .types div {
+    width: fit-content;
+    padding: 5px;
+}
+
+.products .types img {
+    width: 70px;
+    height: 70px;
+
+}
+
+.products .col-5 div {
+    padding: 100px 10px;
+}
+
+.products .colors .color {
+    width: 20px;
+    height: 20px;
+}
+
+.products .colors .color:nth-child(1) {
+    background-color: #816DFA;
+}
+
+.products .colors .color:nth-child(2) {
+    background-color: black;
+}
+
+.products .colors .color:nth-child(3) {
+    background-color: var(--orng);
+}
+
+.products button:first-child {
+    border: none;
+    border: 1px solid gray;
+}
+
+.offcanvas-body img {
+    width: 100px;
+    height: 100px;
+    background-color: var(--main);
+}
+
+.bottom-canvas {
+    bottom: 5%;
+}
+
+.total span:nth-child(2) {
+    color: var(--orng) !important;
+}
+
+.desc .headings h2:not(:first-child),
+.desc p {
+    color: gray;
+    font-weight: 500;
+}
+
+.related .pricing {
+    padding: 15px 2px;
+    margin: -20px 0;
+}
+
+.related .pricing h2 {
+    font-size: 20px;
+    padding: 20px 10px;
+}
+
+.related .card {
+
+    background-color: #F4F5F7;
+    margin: 20px 0;
+}
+
+.related img {
+    width: 100%;
+    height: 350px;
+}
+
+.related button {
+    padding: 3% 7%;
+    color: #B88E2F;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.related .overlay .write img {
+    width: 20px;
+    height: 20px;
+}
+
+.card:hover .overlay {
+    top: 0;
+}
+
+.card:first-child::before,
+.card:nth-child(3)::before,
+.card:last-child::before {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    border-radius: 50%;
+    color: white;
+    padding: 15px 10px;
+}
+
+.card:first-child::before {
+    content: "-30%";
+    background-color: #E97171;
+
+}
+
+.card:nth-child(3)::before {
+    content: "-50%";
+    background-color: #E97171;
+    position: absolute;
+
+}
+
+.card:last-child::before {
+    content: "New";
+    background-color: #2EC1AC;
+    position: absolute;
+}
