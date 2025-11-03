@@ -1,0 +1,504 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+  --primary-color: #B88E2F;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.circle {
+  border-radius: 50%;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.full-color-btn {
+  border: solid 2px var(--primary-color);
+  padding: 2% 5%;
+  color: white;
+  font-weight: 500;
+  display: inline-block;
+  background-color: var(--primary-color);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.outline-btn {
+  border: solid 2px var(--primary-color);
+  padding: 0% 1.5%;
+  color: var(--primary-color);
+  font-weight: 500;
+  display: inline-block;
+  background-color: white;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: start;
+}
+
+.align-end {
+  align-items: end;
+}
+
+.mt-1 {
+  margin-top: 1.5%;
+}
+
+
+nav .container {
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.logo {
+
+  width: 30%;
+  text-align: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 30px; 
+  margin-right: 2%;
+
+}
+
+nav ul {
+  list-style: none;
+
+  width: 50%;
+}
+
+nav ul li {
+  margin-right: 10%;
+  text-align: center;
+  font-weight: 600;
+}
+
+nav .icons {
+  width: 30%;
+  text-align: center;
+}
+
+.icons img {
+  margin-right: 10%;
+}
+
+
+header img {
+  width: 100%;
+  height: 100%;
+}
+
+header div {
+  background-color: #FFF3E3;
+  bottom: 20%;
+  right: 10%;
+  width: 40%;
+  padding: 15px;
+  height: 400px;
+
+}
+
+header div h1 {
+  color: var(--primary-color);
+  font-size: 45px;
+}
+
+header div p {
+  margin: 40px 0;
+}
+
+
+.Frist {
+  text-align: center;
+  padding: 100px 0 20px;
+}
+
+.Frist h2 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.Frist h3 {
+  margin: 20px 0;
+}
+
+.Frist p {
+  color: gray;
+}
+
+.Frist .images {
+
+  justify-content: center;
+  margin: 30px 0;
+  gap: 1.5%;
+}
+
+.Frist.images img {
+  border-radius: 10px;
+}
+
+
+.Second {
+  padding: 20px 0;
+
+}
+
+.Second h2:first-child {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 30px;
+}
+
+.Second .pricing {
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin: -20px 0;
+  padding: 15px 2px;
+}
+
+.Second .cards {
+
+  gap: 1%;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.Second .card {
+  width: 20%;
+  background-color: #F4F5F7;
+  margin: 20px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.Second img {
+  width: 100%;
+  height: 350px;
+}
+
+.padding-20 {
+  padding: 10px;
+}
+
+.Second .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #3a3a3ab8;
+  z-index: 99999;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  left: 0;
+  top: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease;
+  flex-direction: column;
+
+
+}
+
+.Second button {
+  padding: 2% 7%;
+  margin: 30px 0;
+  color: #B88E2F;
+  font-size: 15px;
+  font-weight: 600;
+
+}
+
+.Second .overlay .write {
+  display: flex;
+  gap: 2%;
+  width: 100%;
+  justify-content: center;
+  gap: 15%;
+}
+
+.Second .overlay .write img {
+  width: 20px;
+  height: 20px;
+}
+
+.Second.overlay .write div {
+  display: flex;
+}
+
+.card:hover .overlay {
+  top: 0;
+}
+
+.card p {
+  color: gray;
+}
+
+.card::before {
+  content: "-30%";
+  background-color: #E97171;
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  border-radius: 50%;
+  color: white;
+  padding: 15px 10px;
+}
+
+.Second .container button {
+  margin: 20px auto;
+
+}
+
+.Second .btn {
+  padding: 1% 6% !important;
+
+}
+
+
+.Third {
+  background-color: #FCF8F3;
+  padding: 50px 0;
+}
+
+.Third .writing {
+  width: 30%;
+  margin-right: 5%;
+}
+
+.Third h1 {
+  font-size: 50px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.Third p {
+  color: gray;
+
+}
+
+.Third button {
+  padding: 15px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.Third .arrow {
+  background-color: var(--primary-color);
+  width: fit-content;
+  padding: 10px;
+}
+
+.Third .first-card div {
+  display: inline-block;
+  position: absolute;
+  bottom: 2%;
+}
+
+.Third .first-card {
+  width: 20%;
+}
+
+.desc {
+  left: 5%;
+  background-color: #ffffff63;
+  padding: 25px;
+
+}
+
+.arrow {
+  right: 9%;
+}
+
+.Third .second-card {
+  margin-left: 15%;
+}
+
+.spans {
+  gap: 3%;
+  margin: 20px 0;
+}
+
+.spans span {
+  background-color: #D8D8D8;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.spans span:first-child {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+
+}
+
+.spans span:first-child::before {
+  padding: 10px;
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: -6px;
+  border: 1px solid #B88E2F;
+  border-radius: 50%;
+}
+
+
+.Forth {
+  padding: 70px 0;
+  text-align: center;
+}
+
+.Forth h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.Forth h3 {
+  color: #616161;
+}
+
+.Forth .cont {
+  gap: .5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.Forth .cont .div-1 {
+  width: 39%;
+  gap: .5%;
+}
+
+.Forth .cont .div-2 {
+  width: 20%;
+}
+
+.Forth .cont .div-2 img {
+  width: 100%;
+}
+
+.Forth .cont .div-3 {
+  width: 39%;
+  gap: .5%;
+}
+
+.Forth .cont div div {
+  display: flex;
+  gap: 1%;
+
+}
+
+.h-250 {
+  height: 250px;
+}
+
+/* end sec 4 */
+/* start footer */
+hr {
+  border: none;
+  background-color: #999797;
+  height: 1px;
+  width: 100%;
+  margin: 40px 0;
+}
+
+footer .container {
+  gap: 7%;
+}
+
+footer .company-name {
+  width: 30%;
+}
+
+footer h2 {
+  margin-bottom: 5%;
+}
+
+footer .company-links {
+  width: 10%;
+}
+
+footer .company-contact {
+  width: 15%;
+}
+
+footer .company-follow {
+  width: 20%;
+}
+
+.light-color {
+  color: #9F9F9F;
+}
+
+footer h4 {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+footer ul li {
+  margin-bottom: 40px;
+}
+
+footer .company-follow input {
+  border: none;
+  border-bottom: 1px solid;
+}
+
+footer .company-follow label {
+  border: none;
+  border-bottom: 1px solid;
+  font-weight: 700;
+  margin-left: 5%;
+}
+
+.last p {
+  margin: 40px 0;
+}
+
+/* end footer */
