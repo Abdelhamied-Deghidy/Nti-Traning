@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-area {
+  background: #fff;
+  padding: 40px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.nav-buttons {
+  float: left;
+  width: 10%;
+  height: auto;
+  margin-right: 2%;
+}
+
+.button-item {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.button-item.active {
+  background: #ff7c00;
+}
+
+.nav-content {
+  float: left;
+  width: 50%;
+}
+
+.nav-content p {
+  line-height: 1.6;
+}
+
+.action-btn {
+  background: #ff7c00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+}
+
+.nav-visual {
+  float: right;
+  width: 25%;
+}
+
+.nav-visual img {
+  max-width: 100%;
+  height: auto;
+}
+
+.info-block, .visual-block {
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+.block-side {
+  float: left;
+  width: 48%;
+  margin-right: 2%;
+}
+
+.block-side:last-child {
+  margin-right: 0;
+}
+
+.block-side img {
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.info-item {
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.item-symbol {
+  float: left;
+  width: 40px;
+  font-size: 24px;
+  color: #ff7c00;
+}
+
+.item-text {
+  margin-left: 50px;
+}
+
+.highlight-block {
+  padding: 40px 0;
+  background: #fff;
+  text-align: center;
+}
+
+.grid-layout {
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.grid-box, .cost-box {
+  float: left;
+  width: 31%;
+  margin-right: 3.5%;
+  background: #fff;
+  box-shadow: 0 0 10px #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.grid-box:last-child,
+.cost-box:last-child {
+  margin-right: 0;
+}
+
+.box-symbol {
+  font-size: 30px;
+  color: #ff7c00;
+  margin-bottom: 10px;
+}
+
+.cost-block {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.box-header {
+  background: #333;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.box-cost {
+  font-size: 36px;
+  color: #ff7c00;
+  margin: 10px 0;
+  background-color: #333;
+  width: 320px;
+  height: 150px;
+  text-align: center;
+}
+
+.box-subtitle {
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.cost-box ul {
+  list-style: none;
+}
+
+.cost-box ul li {
+  padding: 10px;
+  border-top: 1px solid #eee;
+}
+
+.cost-box.highlight .highlight-tag {
+  background: #ff7c00;
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+  margin: 10px auto;
+  width: fit-content;
+}
